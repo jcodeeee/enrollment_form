@@ -1,0 +1,151 @@
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: judson;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.png');
+    
+    letter-spacing: 3px;
+    
+    
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid;
+}
+
+
+ol li{
+    margin: 0 0 20px 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, button, table {
+    font-size: 14px;
+    
+}
+#text{
+    color: white    ;
+}
+#female, #male{
+    color: white;
+    display: inline;
+}
+
+
+
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#interest{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+  
+    padding-bottom: 3rem;
+}
+
+
+h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+#web{
+    display: inline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#Gamedevelopment{
+    display: inline;
+    margin-bottom: 20px
+}
+#cyber{
+    display: inline;
+    margin-bottom: 20px
+}
+#graphicDesign{
+    display: inline;
+    margin-bottom: 50px
+}
+#form-text{
+    padding-top: 30px;
+    margin-top: 30px;
+}
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table tr:nth-child(even),table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+    cursor: pointer;
+
+}
+
+table tr:hover {
+    background-color: #958c8c;
+}
+#enroll {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: Black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#enroll:hover {
+    background-color: #22177A;
+    color: white;
+}

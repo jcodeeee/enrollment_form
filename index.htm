@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Student Enrollment Form</h1>
+
+       
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Fill in the form fields.</li>
+            <li>Check your interests.</li>
+            <li>Click "Enroll Now" to submit.</li>
+        </ol>
+
+        
+        <form action="/submit" >
+            
+            <label for="fullName"id='text'>Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+
+            
+            <label for="email" id="text">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            
+            <label for="age" id="text">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+            
+            <label id="text">Sex:</label>
+            
+            <label for="male" id="male">Male</label>
+            <input type="radio" id="male" name="sex" value="Male" required>
+            
+            <label for="female" id="female">Female</label>
+            <input type="radio" id="female" name="sex" value="Female" required>
+
+           
+            <label for="course" id="text">Course Options:</label>
+            <select id="course" name="course" required>
+                <option value="">Select a course</option>
+                <option value="BSIT">BSIT</option>
+                <option value="BSSW">BSSW</option>
+                <option value="BSPA">BSPA</option>
+                <option value="DHRA">DHRS</option>
+                <option value="BSAIS">BSAIS</option>
+            </select>
+
+            
+            <label id="text">Interests:</label>
+            <div id="interest">
+                <input type="checkbox" id="cyber" name="interests" value="Cyber Security">
+                <label for="cyber" id="cyber">Cyber Security</label>
+                <br>
+                <input type="checkbox" id="webDev" name="interests" value="Web Development">
+                <label for="Web" id="web">Web Development</label>
+                <br>
+                <input type="checkbox" id="Gamedevelopment" name="interests" value="Game Development">
+                <label for="Gamedevelopment" id="Gamedevelopment">Game Development</label>
+                <br>
+                <input type="checkbox" id="graphicDesign" name="interests" value="Graphic Design">
+                <label for="graphicDesign" id="graphicDesign">Graphic Design</label>
+            </div>
+
+
+           
+            <button type="submit" id="enroll">Enroll Now</button>
+        </form>
+
+       
+        <h3>Student Data</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Course</th>
+                    <th>Interests</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>1</td>
+                    <td>Renato Jr</td>
+                    <td>renatoloveyoubels123@example.com</td>
+                    <td>67</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Web Development, ML Pro Player</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Justin Deso Acido</td>
+                    <td>Desopogi123@example.com</td>
+                    <td>103</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Programmer, data algorithm</td>
+                </tr>
+                    <td>3</td>
+                    <td>Mark Angelo Salazar</td>
+                    <td>alopogilove123@example.com</td>
+                    <td>99</td>
+                    <td>male</td>
+                    <td>BSIT</td>
+                    <td>journalist, Nba Player</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Esmen Jayson</td>
+                    <td>Esmenloverboymen@example.com</td>
+                    <td>90</td>
+                    <td>male</td>
+                    <td>BSIT</td>
+                    <td>Manunuka</td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
